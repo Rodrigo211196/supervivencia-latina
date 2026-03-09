@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 // Importar componentes
 import PantallaCategoria from "./components/PantallaCategoria";
@@ -51,6 +52,7 @@ export default function App() {
       <footer className="app-footer">
         Derechos de autor 2010 - 2026, idea34 Software. Todos los derechos reservados.
       </footer>
+      <Analytics />
     </div>
   );
 }
