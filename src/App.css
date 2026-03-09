@@ -3,8 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 16px 72px;
+    padding: 0 16px 24px;
     position: relative;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .app-footer {
@@ -33,7 +35,7 @@
    ───────────────────────────────────────── */
 .cat-wrap {
     width: 100%;
-    max-width: 520px;
+    max-width: 800px;
     z-index: 1;
     padding-top: 32px;
 }
@@ -178,7 +180,7 @@
    ───────────────────────────────────────── */
 .header {
     width: 100%;
-    max-width: 480px;
+    max-width: 800px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -249,7 +251,7 @@
    ───────────────────────────────────────── */
 .card {
     width: 100%;
-    max-width: 460px;
+    max-width: 800px;
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
     border-radius: 24px;
@@ -296,8 +298,8 @@
 
 .gif {
     width: 100%;
-    max-height: 220px;
-    object-fit: cover;
+    max-height: 350px;
+    object-fit: contain;
     display: block;
 }
 
@@ -418,7 +420,7 @@
 .btn-siguiente {
     margin-top: 20px;
     width: 100%;
-    max-width: 460px;
+    max-width: 800px;
     padding: 16px;
     border-radius: 16px;
     color: #000;
@@ -432,7 +434,7 @@
 
 .progress-bar {
     width: 100%;
-    max-width: 460px;
+    max-width: 800px;
     height: 4px;
     background: rgba(255, 255, 255, 0.08);
     border-radius: 4px;
@@ -470,7 +472,7 @@
    PANTALLA RESULTADO
    ───────────────────────────────────────── */
 .end-card {
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
     margin: auto;
     margin-top: 40px;
@@ -590,8 +592,25 @@
 }
 
 /* ─────────────────────────────────────────
-   RESPONSIVE
+   RESPONSIVE PC & MOBILE
    ───────────────────────────────────────── */
+@media (min-width: 768px) {
+    .cat-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .opciones {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+    }
+
+    .card {
+        padding: 40px;
+    }
+}
+
 @media (max-width: 600px) {
     .cat-grid {
         grid-template-columns: 1fr;

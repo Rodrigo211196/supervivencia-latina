@@ -45,11 +45,12 @@ export default function App() {
   }
 
   return (
-    <>
+    <div className="root">
+      <div className="bg-dots" />
       {contenido}
       <footer className="app-footer">
         Derechos de autor 2010 - 2026, idea34 Software. Todos los derechos reservados.
       </footer>
-    </>
+    </div>
   );
 }

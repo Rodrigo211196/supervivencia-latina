@@ -37,9 +37,7 @@ export default function PantallaJuego({ categoria, onVolver, onGameOver }) {
     };
 
     return (
-        <div className="root">
-            <div className="bg-dots" />
-
+        <>
             {/* Confetti */}
             {celebrate && (
                 <div className="confetti-wrap">
@@ -201,6 +199,6 @@ export default function PantallaJuego({ categoria, onVolver, onGameOver }) {
                     }}
                 />
             </div>
-        </div>
+        </>
     );
 }
