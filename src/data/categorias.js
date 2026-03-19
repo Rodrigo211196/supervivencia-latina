@@ -4,11 +4,11 @@
 export const CATEGORIAS = [
     {
         id: "oficina",
-        nombre: "Situaciones de trabajo",
+        nombre: "situaciones en el trabajo",
         id_image: "oficina",
         bgImage: "/images/oficina.png",
         color: "#4d96ff",
-        desc: "Sobrevive a la oficina",
+        desc: "En la Oficina o Horas Laborales",
         situaciones: [
             {
                 id: 1,
@@ -84,10 +84,10 @@ export const CATEGORIAS = [
     },
     {
         id: "real",
-        nombre: "Situaciones incómodas",
+        nombre: "Situaciones en la familia",
         bgImage: "/images/incomodas.png",
         color: "#ff6b6b",
-        desc: "Escapa sin perder dignidad",
+        desc: "Momentos Críticos o Frente a Frente",
         situaciones: [
             {
                 id: 1,
@@ -163,10 +163,10 @@ export const CATEGORIAS = [
     },
     {
         id: "colegio",
-        nombre: "Colegio Público",
+        nombre: "Situaciones en el Colegio",
         bgImage: "/images/colegio.jpeg",
         color: "#6bcb77",
-        desc: "Maestros, tareas y supervivencia escolar",
+        desc: "El Día a Día en Clase",
         situaciones: [
             {
                 id: 1,
@@ -242,10 +242,10 @@ export const CATEGORIAS = [
     },
     {
         id: "barrio",
-        nombre: "Situaciones de Barrio",
+        nombre: "Situaciones en el Barrio",
         bgImage: "/images/barrio.jpeg",
         color: "#f59e0b",
-        desc: "El barrio tiene sus propias reglas",
+        desc: "En la Calle o Realidad Local",
         situaciones: [
             {
                 id: 1,
@@ -321,10 +321,10 @@ export const CATEGORIAS = [
     },
     {
         id: "uni",
-        nombre: "Vida Universitaria",
+        nombre: "Situaciones en la Universidad",
         bgImage: "/images/universidad.jpeg",
         color: "#a78bfa",
-        desc: "Sobrevive a la universidad",
+        desc: "Vida de Campus o Proyectos y Finales",
         situaciones: [
             {
                 id: 1,

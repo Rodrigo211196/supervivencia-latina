@@ -10,12 +10,12 @@ export default function PantallaCategoria({ onSelect }) {
             <div className="cat-header">
                 <span className="logo-icon">🎭</span>
                 <div>
-                    <div className="logo-title">supervivencia</div>
-                    <div className="logo-sub">social latina</div>
+                    <div className="logo-title">¿Qué harías?</div>
+                    <div className="logo-sub">El juego de decisiones de la vida real</div>
                 </div>
             </div>
             <p className="cat-subtitulo">
-                Si puedes sobrevivir aquí, puedes sobrevivir en cualquier lugar
+                elige una categoria para medir tu desicion social
             </p>
 
             {/* Grid de categorías */}

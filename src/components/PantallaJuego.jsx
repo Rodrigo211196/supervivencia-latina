@@ -60,8 +60,8 @@ export default function PantallaJuego({ categoria, onVolver, onGameOver }) {
                 <div className="logo">
                     <span className="logo-icon">🎭</span>
                     <div>
-                        <div className="logo-title">Supervivencia</div>
-                        <div className="logo-sub">Social latina</div>
+                        <div className="logo-title">¿Qué harías?</div>
+                        <div className="logo-sub">El juego de decisiones de la vida real</div>
                     </div>
                 </div>
                 <div className="puntos-wrap">
